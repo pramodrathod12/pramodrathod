@@ -1,0 +1,90 @@
+
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main page */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* Website card */
+.container {
+    background: rgba(255, 255, 255, 0.10);
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Main heading */
+h1 {
+    font-size: 32px;
+    color: #7dd3fc;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+.intro {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    color: #e2e8f0;
+}
+
+/* Subheading */
+h2 {
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+/* Hobbies list */
+ul {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.10);
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+li:hover {
+    background: rgba(125, 211, 252, 0.25);
+    transform: translateX(5px);
+}
+
+/* Button */
+button {
+    background: #38bdf8;
+    color: #0f172a;
+    border: none;
+    padding: 13px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #7dd3fc;
+    transform: scale(1.05);
+}
